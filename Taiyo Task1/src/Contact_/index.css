@@ -1,0 +1,28 @@
+.App {
+  background: linear-gradient(to left, rgb(77, 185, 224) 0%, rgb(206, 29, 153) 100%);
+}
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+  }
+h1 {
+  font-family: 'SEGA LOGO FONT';
+  font-weight: 200;
+  color: #0ccac4;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* card css */
+@media (min-width: 478px) {
+  .card-group {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+  }
+}
+
